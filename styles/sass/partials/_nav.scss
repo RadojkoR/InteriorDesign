@@ -1,0 +1,81 @@
+@use "./variables";
+
+.collapsibleMenu {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    background-color: variables.$navBg;
+    
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+}
+
+.logo {
+    width: 25%;
+    p {
+        color: variables.$primaryColor;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+    }
+}
+
+.flexNav {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    li {
+        margin-right: 30px;
+        a {
+            padding: 5px;
+            font-size: 0.9rem;
+            color: variables.$navTxtColor;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+.contactNav {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    li {
+        width: 100%;
+        border: 3px solid variables.$navBorderColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:first-child {
+            border-right: none;
+        } 
+        .fa-phone {
+            font-size: 0.4rem;
+            background-color: variables.$primaryColor;
+            padding: 3px;
+            border-radius: 4px;
+
+        }
+        .fa-envelope {
+            font-size: 0.7rem;
+            color: variables.$primaryColor;
+            padding: 3px;
+            border-radius: 4px;
+        }
+        a {
+            color: variables.$navTxtColor;
+            padding: 10px;
+                
+        }
+    }
+    }    
+     
+    

@@ -1,0 +1,35 @@
+@use "./variables";
+
+.mainFooter {
+    background-color: variables.$primaryColor;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: -300px;
+    .socialFooter {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        li {
+            width: 45px;
+            height: 45px;
+            border: 3px solid variables.$secondaryBg;
+            margin: 0 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                padding: 8px;
+                i {
+                    color: variables.$secondaryBg;
+                }
+            }
+        }
+    }
+    p {
+        text-align: center;
+        color: variables.$secondaryBg;
+        font-size: 0.8rem;
+        padding-bottom: 30px;
+    }
+}
