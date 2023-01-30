@@ -1,0 +1,68 @@
+@use "./variables";
+
+.services {
+    width: 100%;
+    background-color: variables.$primaryBg;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0;
+    position: relative;
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 50px;
+        color: variables.$navTxtColor;
+        margin-bottom:-30px;
+    }
+    .servicesContainer {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: -100px;
+        .servicesBox {
+            width: 30%;
+            background-color: variables.$secondaryBg;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 0;
+            img {
+                width: 60px;
+            }
+            h6 {
+                font-size: 1.3rem;
+                font-weight: 400;
+                margin: 30px 0;
+            }
+            .servicesTxtContainer {
+                width: 67%;
+                text-align: center;
+                p {
+                    font-size: 0.8rem;
+                    color: variables.$lightTxtColor;
+                    padding-bottom: 30px;
+                }
+                a {
+                    color: variables.$secondaryTxtColor;
+                    text-transform: uppercase;
+                    font-size: 0.6rem;
+                    font-weight: 700;
+                    border: 3px solid variables.$secondaryTxtColor;
+                    padding: 15px 25px;
+                    transition: all 0.4s ease;
+
+                    &:hover, 
+                    &:focus {
+                        color: variables.$primaryTxtColor;
+                        background-color: variables.$primaryBg;
+                    }
+                }
+                
+            }
+        }
+    }
+
+}

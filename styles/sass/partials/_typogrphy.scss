@@ -8,5 +8,14 @@ body {
     font-size: 1rem;
     line-height: 28px;
     letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.hFiveEl {
+    margin: 0;
+    text-transform: uppercase;
+    color: variables.$primaryColor;
+    font-weight: 500;
+    letter-spacing: 0;
 }
