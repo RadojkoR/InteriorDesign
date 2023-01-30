@@ -1,0 +1,50 @@
+@use "./variables";
+
+.ourFeatures {
+    padding: 200px 0;
+    .ourFeaturesContainer {
+        display: flex;
+        justify-content: space-between;
+        background-color: variables.$tertinary;
+        .ourFeaturesTxtContainer {
+            width: 50%;   
+            padding: 70px 0;
+            .feauturesBox {
+                width: 60%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h3 {
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    line-height: 50px;
+                }
+                p {
+                    font-size: 0.8rem;
+                    color: variables.$lightTxtColor;
+                    padding-bottom: 30px;
+                }
+                .featuresIconContainer {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+        .ourfeaturesImgContainer {
+            width: 50%;
+            height: auto;
+            background-image: url(../assets/our_featuresImg.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
