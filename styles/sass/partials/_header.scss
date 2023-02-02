@@ -5,7 +5,7 @@
     width: 100%;
     height: 100vh;
     // position: relative;
-    outline: 2px solid red;
+    // outline: 2px solid red;
 }
 
 .headerContainer {    
@@ -59,3 +59,77 @@
     }
     
 }
+
+// OUR PROJECTS PAGE
+
+.mainHeaderProjects {
+    background-color: variables.$primaryBg;
+    width: 100%;
+    height: 70vh;
+    .textEl {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: variables.$tertinary;
+            margin: 0;
+            z-index: 1;
+        }
+    }
+}
+
+.projectsHeaderContainer {    
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.5)), url(../assets/projects_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .leftEl {
+        width: 80px;
+        // background-color: variables.$primaryColor;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        color: variables.$navTxtColor;
+        .leftTxtEl {
+            width: 400px;
+            align-self: center;
+            justify-self: flex-start;
+            position: relative;
+            top: 33%;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            transform: rotate(-90deg);
+        }
+        ul {
+            padding: 0;
+            margin-bottom: 5px;
+            align-self: center;
+            li {
+                margin-bottom: 10px;
+                a {
+                    padding: 5px;
+                }
+            }
+            
+            i {
+                color: variables.$navTxtColor;
+            }
+        }
+    }
+    
+    
+}
+
