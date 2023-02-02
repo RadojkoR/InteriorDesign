@@ -307,7 +307,7 @@ p {
 .logo {
   width: 25%;
 }
-.logo p {
+.logo a {
   color: #f47f4a;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -485,6 +485,15 @@ p {
 .mainFooter .footerTop .footerTopContainer .footerAbout p {
   font-size: 0.6rem;
   color: #f3f3f3;
+  padding: 10px;
+}
+.mainFooter .footerTop .footerTopContainer .footerAbout p i, .mainFooter .footerTop .footerTopContainer .footerAbout p a {
+  color: #f47f4a;
+  font-size: 1.2rem;
+}
+.mainFooter .footerTop .footerTopContainer .footerAbout p a {
+  padding: 10px 10px 10px 20px;
+  font-weight: 800;
 }
 .mainFooter .footerTop .footerTopContainer .footerMenu {
   width: 20%;

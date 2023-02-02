@@ -26,6 +26,15 @@
                  p {
                     font-size: 0.6rem;
                     color: variables.$tertinary;
+                    padding: 10px;
+                    i, a {
+                        color: variables.$primaryColor;
+                        font-size: 1.2rem;
+                    }
+                    a {
+                        padding: 10px 10px 10px 20px;
+                        font-weight: 800;
+                    }
                 }
             }
             .footerMenu {
