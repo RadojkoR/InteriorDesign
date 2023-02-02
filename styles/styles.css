@@ -1124,3 +1124,78 @@ p {
   background-size: cover;
   position: relative;
 }
+
+.contactUsContainer {
+  width: 70%;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contactUsContainer .contactForm {
+  width: 100%;
+}
+.contactUsContainer .contactForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contactUsContainer .contactForm form .row {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 15px;
+}
+.contactUsContainer .contactForm form .row .textInput {
+  width: 48%;
+}
+.contactUsContainer .contactForm form .row .textInput input {
+  width: 100%;
+  border: none;
+  background-color: #e8e8e9;
+  padding: 20px;
+}
+.contactUsContainer .contactForm form .row .formMessage {
+  width: 100%;
+}
+.contactUsContainer .contactForm form .row .formMessage textarea {
+  width: 100%;
+  border: none;
+  background-color: #e8e8e9;
+  padding: 20px;
+}
+.contactUsContainer .contactForm form button {
+  width: 20%;
+  color: #252733;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 700;
+  border: 3px solid #252733;
+  padding: 15px 25px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.contactUsContainer .contactForm form button:hover, .contactUsContainer .contactForm form button:focus {
+  color: #FFF;
+  background-color: #252733;
+}
