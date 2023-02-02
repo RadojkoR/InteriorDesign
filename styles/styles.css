@@ -280,6 +280,10 @@ body {
   letter-spacing: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .collapsibleMenu {
   width: 100%;
   position: fixed;
@@ -415,12 +419,12 @@ body {
   color: #FFF;
 }
 .headerContainer .leftEl .leftTxtEl {
-  width: 370px;
+  width: 400px;
   -ms-flex-item-align: center;
       align-self: center;
   justify-self: flex-start;
   position: relative;
-  top: 20%;
+  top: 25%;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -442,14 +446,110 @@ body {
   color: #FFF;
 }
 
-.mainFooter {
+.mainFooter .footerTop {
+  background-color: #252733;
+  margin: 0;
+}
+.mainFooter .footerTop .footerTopContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mainFooter .footerTop .footerTopContainer .footerBox {
+  width: 30%;
+}
+.mainFooter .footerTop .footerTopContainer .footerAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
+.mainFooter .footerTop .footerTopContainer .footerAbout h6 {
+  text-align: left;
+  color: #f3f3f3;
+  margin: 0;
+  font-size: 0.9rem;
+  padding-bottom: 20px;
+}
+.mainFooter .footerTop .footerTopContainer .footerAbout p {
+  font-size: 0.6rem;
+  color: #f3f3f3;
+}
+.mainFooter .footerTop .footerTopContainer .footerMenu {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0;
+}
+.mainFooter .footerTop .footerTopContainer .footerMenu .footerNav {
+  margin: 0;
+  padding: 0;
+}
+.mainFooter .footerTop .footerTopContainer .footerMenu h6 {
+  color: #f3f3f3;
+  margin: 0;
+  font-size: 0.9rem;
+  padding-bottom: 20px;
+}
+.mainFooter .footerTop .footerTopContainer .footerMenu a {
+  font-size: 0.6rem;
+  color: #f3f3f3;
+}
+.mainFooter .footerTop .footerTopContainer .footerInfo {
+  border: 4px solid #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0;
+}
+.mainFooter .footerTop .footerTopContainer .footerInfo h5 {
+  font-size: 0.7rem;
+  margin: 0;
+}
+.mainFooter .footerTop .footerTopContainer .footerInfo p {
+  font-size: 0.6rem;
+  color: #f3f3f3;
+}
+.mainFooter .footerTop .footerTopContainer .footerInfo a {
+  font-size: 0.6rem;
+  color: #f3f3f3;
+}
+.mainFooter .footerBottom {
   background-color: #f47f4a;
   width: 100%;
   position: relative;
-  left: 0;
-  bottom: -300px;
+  margin: 0;
 }
-.mainFooter .socialFooter {
+.mainFooter .footerBottom .socialFooter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,8 +557,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 50px;
+  margin: 0;
 }
-.mainFooter .socialFooter li {
+.mainFooter .footerBottom .socialFooter li {
   width: 45px;
   height: 45px;
   border: 3px solid #FFF;
@@ -473,17 +574,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.mainFooter .socialFooter li a {
+.mainFooter .footerBottom .socialFooter li a {
   padding: 8px;
 }
-.mainFooter .socialFooter li a i {
+.mainFooter .footerBottom .socialFooter li a i {
   color: #FFF;
 }
-.mainFooter p {
+.mainFooter .footerBottom p {
   text-align: center;
   color: #FFF;
   font-size: 0.8rem;
-  padding-bottom: 30px;
+  padding: 30px 0 20px;
+  margin: 0;
 }
 
 .welcome {
@@ -718,6 +820,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 80px;
 }
 .recentProjectContainer h2 {
   font-family: "Poppins", sans-serif;
@@ -756,10 +859,10 @@ body {
 .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox p::before {
   content: "";
   border-left: 1px solid #f3f3f3;
-  height: 200%;
+  height: 100%;
   position: absolute;
-  left: -20%;
-  top: -50%;
+  left: -15%;
+  top: 0;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
@@ -780,16 +883,16 @@ body {
 .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior p::before {
   content: "";
   border-left: 1px solid #f3f3f3;
-  height: 200%;
+  height: 100%;
   position: absolute;
-  left: -8%;
-  top: -50%;
+  left: 0;
+  top: 0;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
 .recentProjectContainer .recentProjectBoxContainer .recentProjectBox p {
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .boxOne {
   background-image: url(../assets/modernHome-sunset.jpg);

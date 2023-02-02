@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
     h2 {
         font-family: 'Poppins', sans-serif;
         font-size: 2rem;
@@ -34,10 +35,10 @@
                     &::before {
                         content: "";
                         border-left: 1px solid variables.$tertinary;
-                        height: 200%;
+                        height: 100%;
                         position: absolute;
-                        left: -20%;
-                        top: -50%;
+                        left: -15%;
+                        top: 0;
                         transform: rotate(-90deg);
                     }
                 }
@@ -56,17 +57,17 @@
                     &::before {
                         content: "";
                         border-left: 1px solid variables.$tertinary;
-                        height: 200%;
+                        height: 100%;
                         position: absolute;
-                        left: -8%;
-                        top: -50%;
+                        left: 0;
+                        top: 0;
                         transform: rotate(-90deg);
                     }
                 }
             }
             p {
                 text-align: center;
-                padding: 10px 0;
+                padding: 20px 0;
             }
             .boxOne {
                 background-image: url(../assets/modernHome-sunset.jpg);
