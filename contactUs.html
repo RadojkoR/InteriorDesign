@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800;900&family=Poppins:wght@400;700;800;900&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- SKIP LINK -->
+    <a href="#mainContent" class="skipLink">Skip To Main</a>
+
+    <!-- NAV SECTION -->
+    <div class="collapsibleMenu">
+        <!-- WRAPPER -->
+        <div class="wrapper">
+
+            <div class="menuContent">
+                <nav class="menu">
+                    <div class="logo">
+                        <a href="./index.html">Interior D</a>
+                    </div>
+
+                    <div class="hamburgerMenu">
+
+                    </div><!-- END HAMBURGER MENU -->
+
+                    <ul class="flexNav">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./ourProjects.html">Our Project</a></li>
+                        <li><a href="./contactUs.html">Contact Us</a></li>
+                    </ul>
+                    <ul class="contactNav">
+                        <li><i class="fa-solid fa-phone"></i><a href="tel:+11234567890">123 456 7890</a></li>
+                        <li><i class="fa-solid fa-envelope"></i><a href="mailto:contact@test.test">contact@test.test</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+
+        </div>
+        <!--END WRAPPER-->
+    </div><!-- END COLLAPSIBLE MENU -->
+
+    <!-- HEADER SECTION -->
+    <header class="mainHeaderProjects" id="top">
+        <div class="textEl">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="projectsHeaderContainer">
+            <div class="leftEl">
+                <div class="leftTxtEl">
+                    <p>Interior & Architecture</p>
+                </div>
+
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!--END HEADER CONTAINER-->
+    </header>
+
+    <!-- CONTACT US FORM -->
+    <section class="contactUs" id="mainContent">
+        <div class="wrapper">
+            <div class="contactUsContainer">
+                <h5 class="hFiveEl">Contact with us</h5>
+                <h2>Do you have any questions?<br>write us a message</h2>
+                <div class="contactForm">
+                    <form action="#" method="post">
+                        <!-- ROW ONE -->
+                        <div class="rowOne row">
+                            <div class="formName textInput">
+                                <label for="name"></label>
+                                <input type="text" id="name" name="name" placeholder="Your Name">
+                            </div><!--END .formName-->
+                            <div class="formEmail textInput">
+                                <label for="email"></label>
+                                <input type="email" id="email" name="email" placeholder="Email address" required>
+                            </div>
+                        </div><!--End rowOne-->
+                        <!-- ROW TWO -->
+                        <div class="rowTwo row">
+                            <div class="formTel textInput">
+                                <label for="phone"></label>
+                                <input type="tel" id="Phone" name="phone" placeholder="Phone Number">
+                            </div><!--END .formName-->
+
+                            <div class="formEmail textInput">
+                                <label for="subject"></label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                        </div><!--End rowTwo-->
+                        <!-- ROW THREE -->
+                        <div class="rowThree row">
+                            <div class="formMessage">
+                                <label for="message"></label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message"></textarea>
+                            </div><!--END .formMessage-->
+                        </div><!--End rowThree-->
+                        <button type="submit">Send Mesage</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!-- FOOTER -->
+     <footer class="mainFooter">
+         <!-- FOOTER TOP -->
+         <section class="footerTop">
+             <div class="wrapper">
+                 <div class="footerTopContainer">
+                     <section class="footerAbout footerBox">
+                         <h6>Interior D</h6>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt vel iusto aliquid esse
+                             in.
+                             Illo, praesentium! Doloribus architecto ipsam id, nulla eaque dolorum alias nemo.</p>
+                         <p><i class="fa-solid fa-phone"></i><a href="tel:+11234567890">123 456 7890</a></p>
+                     </section>
+                     <section class="footerMenu footerBox">
+                         <h6>Menu</h6>
+                         <ul class="footerNav">
+                             <li><a href="./index.html">Home</a></li>
+                             <li><a href="./ourProjects.html">Our Project</a></li>
+                             <li><a href="./contactUs.html">Contact Us</a></li>
+                         </ul>
+                     </section>
+                     <section class="footerInfo footerBox">
+                         <div class="footerInfoBox">
+                             <div class="footerAddress">
+                                 <h5 class="hFiveEl">Adress</h5>
+                                 <p>0000 New Street Toronto</p>
+                             </div>
+                             <div class="footerEmail">
+                                 <h5 class="hFiveEl">Email</h5>
+                                 <a href="mailto:contact@test.test">needhelp@interiord.com</a>
+                             </div>
+
+                         </div>
+                     </section>
+                 </div>
+             </div>
+         </section>
+
+         <!-- FOOTER BOTTOM -->
+         <section class="footerBottom">
+             <ul class="socialFooter">
+                 <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+                 <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+             </ul>
+             <p>&copy; 2023 Copyrights are reserved by radoyko.com</p>
+         </section>
+     </footer>
+
+
+     <!-- FONT AWESOME LINK -->
+     <script src="https://kit.fontawesome.com/5479c1fd3b.js" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
