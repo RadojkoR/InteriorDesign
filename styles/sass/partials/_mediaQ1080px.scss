@@ -1,0 +1,34 @@
+@use "./variables";
+
+@media (max-width: 1080px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    // ******************************* HOME PAGE
+    // NAV SECTION
+
+    .logo {
+        a {
+            font-size: 1rem;
+    }
+}
+
+    .flexNav {
+        li {
+            a {
+                font-size: 0.6rem;
+            }
+         }
+    }
+    .contactNav {
+        font-size: 0.4rem;
+        li {
+            &:first-child {
+                border-right: none;
+            } 
+        }
+    } 
+
+
+}

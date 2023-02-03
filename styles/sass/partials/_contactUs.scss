@@ -54,11 +54,10 @@
     
                 &:hover, 
                 &:focus {
-                            color: variables.$primaryTxtColor;
-                            background-color: variables.$primaryBg;
+                    color: variables.$primaryTxtColor;
+                    background-color: variables.$primaryBg;
                 }
             }
-
         }
     }
 }
