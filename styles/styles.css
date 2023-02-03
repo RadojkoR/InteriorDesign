@@ -305,7 +305,7 @@ p {
 }
 
 .logo {
-  width: 25%;
+  width: 18%;
 }
 .logo a {
   color: #f47f4a;
@@ -316,7 +316,7 @@ p {
 }
 
 .flexNav {
-  width: 40%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -332,14 +332,14 @@ p {
 }
 .flexNav li a {
   padding: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #FFF;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
 
 .contactNav {
-  width: 35%;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,7 +390,8 @@ p {
 .headerContainer {
   width: 90%;
   height: 100vh;
-  background-image: url(../assets/header_background.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.151)), to(rgba(0, 0, 0, 0.5))), url(../assets/header_background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.5)), url(../assets/header_background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -699,11 +700,12 @@ p {
 }
 .welcomeContainer .welcomeImgContainer .welcomeImgOne {
   width: 65%;
+  height: 700px;
   z-index: -10;
 }
 .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
   width: 50%;
-  height: 300px;
+  height: 400px;
   position: absolute;
   bottom: 0;
   right: 20%;
@@ -991,19 +993,22 @@ p {
   padding: 20px 0;
 }
 .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .boxOne {
-  background-image: url(../assets/modernHome-sunset.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.151)), to(rgba(0, 0, 0, 0.5))), url(../assets/modernHome-sunset.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.5)), url(../assets/modernHome-sunset.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
 }
 .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .boxTwo {
-  background-image: url(../assets/recent-two.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.151)), to(rgba(0, 0, 0, 0.5))), url(../assets/recent-two.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.5)), url(../assets/recent-two.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
 }
 .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .boxThree {
-  background-image: url(../assets/recentProject-three.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.151)), to(rgba(0, 0, 0, 0.5))), url(../assets/recentProject-three.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.5)), url(../assets/recentProject-three.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -1198,4 +1203,194 @@ p {
 .contactUsContainer .contactForm form button:hover, .contactUsContainer .contactForm form button:focus {
   color: #FFF;
   background-color: #252733;
+}
+
+@media (max-width: 1380px) {
+  .flexNav li a {
+    font-size: 0.7rem;
+  }
+  .contactNav {
+    font-size: 0.6rem;
+  }
+  .contactNav li:first-child {
+    border-right: none;
+  }
+}
+@media (max-width: 1275px) {
+  .wrapper {
+    width: 85%;
+  }
+  .logo a {
+    font-size: 1.2rem;
+  }
+  .flexNav li a {
+    font-size: 0.7rem;
+  }
+  .contactNav {
+    font-size: 0.5rem;
+  }
+  .contactNav li:first-child {
+    border-right: none;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgOne {
+    width: 70%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
+    right: 12%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara p {
+    font-size: 0.7rem;
+    padding: 15px;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara p span {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1080px) {
+  .wrapper {
+    width: 90%;
+  }
+  .logo a {
+    font-size: 1rem;
+  }
+  .flexNav li a {
+    font-size: 0.6rem;
+  }
+  .contactNav {
+    font-size: 0.4rem;
+  }
+  .contactNav li:first-child {
+    border-right: none;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgOne {
+    width: 80%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
+    right: 8%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara {
+    width: 60%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara p {
+    font-size: 0.7rem;
+    padding: 15px;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara p span {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 900px) {
+  .wrapper {
+    width: 95%;
+  }
+  .logo a {
+    font-size: 0.9rem;
+  }
+  .flexNav li a {
+    font-size: 0.48rem;
+  }
+  .contactNav {
+    font-size: 0.38rem;
+  }
+  .contactNav li:first-child {
+    border-right: none;
+  }
+  .headerContainer {
+    width: 100%;
+    bottom: 0;
+  }
+  .headerContainer .leftEl {
+    background-color: transparent;
+  }
+  .headerContainer .leftEl .leftTxtEl {
+    top: 30%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgOne {
+    width: 90%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
+    width: 60%;
+    right: 3%;
+    bottom: 3%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara {
+    width: 70%;
+    bottom: 3%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara p {
+    font-size: 0.7rem;
+    padding: 15px;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara p span {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .services .servicesContainer .servicesBox {
+    width: 31%;
+    background-color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 5px 3px #f3f3f3;
+            box-shadow: 0px 5px 3px #f3f3f3;
+  }
+  .services .servicesContainer .servicesBox img {
+    width: 60px;
+  }
+  .services .servicesContainer .servicesBox h6 {
+    font-size: 1.1rem;
+  }
+  .services .servicesContainer .servicesBox .servicesTxtContainer {
+    width: 90%;
+  }
+  .services .servicesContainer .servicesBox .servicesTxtContainer a {
+    padding: 10px 20px;
+  }
+  .ourFeatures .ourFeaturesContainer .ourFeaturesTxtContainer .feauturesBox {
+    width: 90%;
+  }
+  .ourFeatures .ourFeaturesContainer .ourFeaturesTxtContainer .feauturesBox h3 {
+    font-size: 1.4rem;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox {
+    width: 32%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox {
+    width: 100%;
+    height: 450px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox p {
+    font-size: 0.8rem;
+    left: -35%;
+    top: 12%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior {
+    width: 100%;
+    height: 450px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior p {
+    font-size: 0.8rem;
+    left: -35%;
+    top: 12%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox p {
+    font-size: 0.9rem;
+  }
+  .mainFooter .footerTop .footerTopContainer .footerBox {
+    width: 40%;
+  }
+  .mainFooter .footerTop .footerTopContainer .footerAbout p i,
+.mainFooter .footerTop .footerTopContainer .footerAbout p a {
+    font-size: 1rem;
+  }
 }

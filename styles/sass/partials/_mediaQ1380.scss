@@ -1,0 +1,25 @@
+@use "./variables";
+
+
+// 1380px and under
+@media (max-width: 1380px) {
+
+    // NAV SECTION
+    .flexNav {
+        li {
+            a {
+                font-size: 0.7rem;
+            }
+         }
+    }
+    .contactNav {
+        font-size: 0.6rem;
+        li {
+            &:first-child {
+                border-right: none;
+            } 
+        }
+    } 
+
+
+}

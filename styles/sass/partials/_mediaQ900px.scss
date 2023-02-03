@@ -1,0 +1,192 @@
+@use "./variables";
+
+@media (max-width: 900px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    // ******************************* HOME PAGE
+    // NAV SECTION
+
+    .logo {
+        a {
+            font-size: 0.9rem;
+        }
+    }
+
+    .flexNav {
+        li {
+            a {
+                font-size: 0.48rem;
+            }
+        }
+    }
+
+    .contactNav {
+        font-size: 0.38rem;
+
+        li {
+            &:first-child {
+                border-right: none;
+            }
+        }
+    }
+
+    // HEADER SECTION 
+    .headerContainer {
+        width: 100%;
+        bottom: 0;
+
+        .leftEl {
+            background-color: transparent;
+
+            .leftTxtEl {
+                top: 30%;
+            }
+        }
+    }
+
+    // WELCOME SECTION
+
+    .welcomeContainer {
+        .welcomeImgContainer {
+
+            .welcomeImgOne {
+                width: 90%;
+            }
+
+            .welcomeImgTwo {
+                width: 60%;
+                right: 3%;
+                bottom: 3%;
+            }
+
+            .welcomeImgPara {
+                width: 70%;
+                bottom: 3%;
+
+                p {
+                    font-size: 0.7rem;
+                    padding: 15px;
+
+                    span {
+                        font-weight: 500;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+
+        }
+    }
+
+    // SERVICES SECTION
+
+    .services {
+        h2 {}
+
+        .servicesContainer {
+            .servicesBox {
+                width: 31%;
+                background-color: variables.$secondaryBg;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 50px 0;
+                box-shadow: 0px 5px 3px variables.$tertinary;
+
+                img {
+                    width: 60px;
+                }
+
+                h6 {
+                    font-size: 1.1rem;
+                }
+
+                .servicesTxtContainer {
+                    width: 90%;
+
+                    a {
+                        padding: 10px 20px;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    // OUR FEATURES SECTION 
+    .ourFeatures {
+        .ourFeaturesContainer {
+            .ourFeaturesTxtContainer {
+                .feauturesBox {
+                    width: 90%;
+
+                    h3 {
+                        font-size: 1.4rem;
+                    }
+
+                }
+            }
+        }
+    }
+
+    //  RECENT PROJECTS SECTION
+    .recentProjectContainer {
+        .recentProjectBoxContainer {
+            .recentProjectBox {
+                width: 32%;
+
+                .imgBox {
+                    width: 100%;
+                    height: 450px;
+
+                    p {
+                        font-size: 0.8rem;
+                        left: -35%;
+                        top: 12%;
+                    }
+                }
+
+                .imgBoxInterior {
+                    width: 100%;
+                    height: 450px;
+
+                    p {
+                        font-size: 0.8rem;
+                        left: -35%;
+                        top: 12%;
+                    }
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    // FOOTER SECTION 
+    .mainFooter {
+        .footerTop {
+            .footerTopContainer {
+                .footerBox {
+                    width: 40%;
+                }
+
+                .footerAbout {
+                    p {
+
+                        i,
+                        a {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
