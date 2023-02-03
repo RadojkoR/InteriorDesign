@@ -11,7 +11,7 @@
 .headerContainer {    
     width: 90%;
     height: 100vh;
-    background-image: url(../assets/header_background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.5)), url(../assets/header_background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

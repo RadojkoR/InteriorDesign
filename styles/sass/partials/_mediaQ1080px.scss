@@ -30,5 +30,34 @@
         }
     } 
 
+     // WELCOME SECTION
+
+    .welcomeContainer {
+        .welcomeImgContainer {
+
+            .welcomeImgOne {
+                width: 80%;
+            }
+
+            .welcomeImgTwo {
+                right: 8%;
+            }
+
+            .welcomeImgPara {
+                width: 60%;
+                p {
+                    font-size: 0.7rem;
+                    padding: 15px;
+
+                    span {
+                        font-weight: 500;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+
+        }
+    }
+
 
 }
