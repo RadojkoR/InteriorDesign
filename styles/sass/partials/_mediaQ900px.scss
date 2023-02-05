@@ -82,8 +82,6 @@
     // SERVICES SECTION
 
     .services {
-        h2 {}
-
         .servicesContainer {
             .servicesBox {
                 width: 31%;
@@ -165,6 +163,49 @@
             }
         }
     }
+
+    // ********************************OUR PROJECTS PAGE
+
+    .projectsContainer {
+        .projectsImgBox {
+            width: 32%;
+
+            .imgBox {
+                width: 100%;
+                height: 450px;
+
+                p {
+                    left: -35%;
+                    top: 12%;
+                }
+            }
+            .imgBoxInterior {
+                width: 100%;
+                height: 450px;
+    
+                p {
+                    left: -35%;
+                    top: 12%;
+                }
+            }
+        }
+    }
+
+    // *****************************************CONTACT US PAGE
+
+    .contactUsContainer {
+    width: 90%;
+    .contactForm {
+        form {
+            .row {
+                width: 90%;
+            }
+            button {
+                width: 25%;
+            }
+        }
+    }
+}
 
     // FOOTER SECTION 
     .mainFooter {

@@ -60,4 +60,22 @@
 
         }
     }
+
+    //*****************************CONTACT US PAGE
+
+    .contactUsContainer {
+        width: 85%;
+
+        .contactForm {
+            form {
+                .row {
+                    width: 90%;
+                }
+
+                button {
+                    width: 25%;
+                }
+            }
+        }
+    }
 }
