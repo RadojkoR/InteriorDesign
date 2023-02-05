@@ -11,26 +11,28 @@
     .logo {
         a {
             font-size: 1rem;
+        }
     }
-}
 
     .flexNav {
         li {
             a {
                 font-size: 0.6rem;
             }
-         }
+        }
     }
+
     .contactNav {
         font-size: 0.4rem;
+
         li {
             &:first-child {
                 border-right: none;
-            } 
+            }
         }
-    } 
+    }
 
-     // WELCOME SECTION
+    // WELCOME SECTION
 
     .welcomeContainer {
         .welcomeImgContainer {
@@ -45,6 +47,7 @@
 
             .welcomeImgPara {
                 width: 60%;
+
                 p {
                     font-size: 0.7rem;
                     padding: 15px;
@@ -56,6 +59,33 @@
                 }
             }
 
+        }
+    }
+
+    // ********************************OUR PROJECTS PAGE
+
+    .projectsContainer {
+        .projectsImgBox {
+            width: 32%;
+
+            .imgBox {
+                width: 100%;
+                height: 500px;
+
+                p {
+                    left: -20%;
+                    top: 15%;
+                }
+            }
+            .imgBoxInterior {
+                width: 100%;
+                height: 500px;
+    
+                p {
+                    left: -20%;
+                    top: 15%;
+                }
+            }
         }
     }
 
