@@ -1,0 +1,30 @@
+@use "./variables";
+
+// 610px and under
+@media (max-width: 610px) {
+    .logo {
+        width: 25%;
+        visibility: visible;
+        position: relative;
+        left: 15%;
+    }
+    .contactNav {
+    padding: 0;
+    a {
+        font-size: 0.48rem;
+    }
+    .fa-phone {
+            font-size: 0.4rem;
+            background-color: variables.$primaryColor;
+            padding: 3px;
+            border-radius: 4px;
+
+        }
+        .fa-envelope {
+            font-size: 0.7rem;
+            color: variables.$primaryColor;
+            padding: 3px;
+            border-radius: 4px;
+        }
+    }
+}

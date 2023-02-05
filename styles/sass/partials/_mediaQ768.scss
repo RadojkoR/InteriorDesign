@@ -1,0 +1,14 @@
+@use "./variables";
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 98%;
+    }
+    .logo {
+        width: 20%;
+        visibility: visible;
+        position: relative;
+        left: 31%;
+    }
+
+}
