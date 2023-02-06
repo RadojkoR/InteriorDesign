@@ -304,6 +304,10 @@ p {
   padding-top: 20px;
 }
 
+.hamburgerMenu {
+  visibility: hidden;
+}
+
 .logo {
   width: 18%;
 }
@@ -1345,10 +1349,10 @@ p {
     font-size: 0.9rem;
   }
   .flexNav li a {
-    font-size: 0.48rem;
+    font-size: 0.45rem;
   }
   .contactNav {
-    font-size: 0.38rem;
+    font-size: 0.35rem;
   }
   .contactNav li:first-child {
     border-right: none;
@@ -1482,40 +1486,6 @@ p {
   .wrapper {
     width: 98%;
   }
-  .logo {
-    width: 20%;
-    visibility: visible;
-    position: relative;
-    left: 31%;
-  }
-}
-@media (max-width: 610px) {
-  .logo {
-    width: 25%;
-    visibility: visible;
-    position: relative;
-    left: 15%;
-  }
-  .contactNav {
-    padding: 0;
-  }
-  .contactNav a {
-    font-size: 0.48rem;
-  }
-  .contactNav .fa-phone {
-    font-size: 0.4rem;
-    background-color: #f47f4a;
-    padding: 3px;
-    border-radius: 4px;
-  }
-  .contactNav .fa-envelope {
-    font-size: 0.7rem;
-    color: #f47f4a;
-    padding: 3px;
-    border-radius: 4px;
-  }
-}
-@media (max-width: 768px) {
   .contactNav {
     width: 55%;
     display: -webkit-box;
@@ -1579,7 +1549,7 @@ p {
             align-items: flex-start;
     top: 0;
     left: -400px;
-    width: 50%;
+    width: 70%;
     height: 100vh;
     z-index: 10;
     margin: 0;
@@ -1593,11 +1563,69 @@ p {
   }
   .collapsibleMenu .menu .flexNav li a {
     font-size: 1rem;
-    line-height: 40px;
+    line-height: 50px;
   }
   .collapsibleMenu .menu .showFlexNav {
     left: 0;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+  }
+  .logo {
+    width: 20%;
+    visibility: visible;
+    position: relative;
+    left: 31%;
+  }
+}
+@media (max-width: 610px) {
+  .logo {
+    width: 25%;
+    visibility: visible;
+    position: relative;
+    left: 15%;
+  }
+  .contactNav {
+    padding: 0;
+  }
+  .contactNav a {
+    font-size: 0.48rem;
+  }
+  .contactNav .fa-phone {
+    font-size: 0.4rem;
+    background-color: #f47f4a;
+    padding: 3px;
+    border-radius: 4px;
+  }
+  .contactNav .fa-envelope {
+    font-size: 0.7rem;
+    color: #f47f4a;
+    padding: 3px;
+    border-radius: 4px;
+  }
+}
+@media (max-width: 490px) {
+  .logo {
+    visibility: hidden;
+    position: absolute;
+    left: -400px;
+  }
+  .contactNav {
+    width: 76%;
+    position: relative;
+    right: -25%;
+  }
+  .contactNav a {
+    font-size: 0.4rem;
+  }
+  .showLogo {
+    width: 60%;
+    visibility: visible;
+    left: 75px;
+    z-index: 13;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .showLogo a {
+    font-size: 1.1rem;
   }
 }
