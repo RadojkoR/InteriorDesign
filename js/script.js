@@ -32,9 +32,13 @@ app.hamburgerEl.addEventListener('click', (event) => {
 app.updateIcon = (icon) => {
     icon.classList.toggle("fa-bars");
     icon.classList.toggle("fa-x");
-
+    icon.parentElement.previousElementSibling.classList.toggle("showLogo");
     icon.parentElement.nextElementSibling.classList.toggle("showFlexNav");
 }
+
+// IMPORT LOGO in ham menu
+// app.hamMenuLogo = document.querySelector(".flexNav");
+// app.hamMenuLogo.innerHTML = `<li><a href="./index.html">Interior D</a></li>`
 
 
 

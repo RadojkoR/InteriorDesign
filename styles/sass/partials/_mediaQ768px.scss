@@ -1,8 +1,10 @@
 @use "./variables";
 
-
 @media (max-width: 768px) {
-    
+    .wrapper {
+        width: 98%;
+    }
+
     .contactNav {
     width: 55%;
     display: flex;
@@ -53,7 +55,7 @@
                 align-items: flex-start;
                 top: 0;
                 left: -400px;
-                width: 50%;
+                width: 70%;
                 height: 100vh;
                 z-index: 10;
                 margin: 0;
@@ -64,7 +66,7 @@
                     margin: 0;
                     a {
                         font-size: 1rem;
-                        line-height: 40px;
+                        line-height: 50px;
                     }
                 }
             }
@@ -73,6 +75,13 @@
                 transition: all 0.4s ease;
             }
         }
+    }
+
+    .logo {
+        width: 20%;
+        visibility: visible;
+        position: relative;
+        left: 31%;
     }
 
 }

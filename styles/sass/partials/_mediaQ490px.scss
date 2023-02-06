@@ -1,0 +1,28 @@
+@use "./variables";
+
+// 490px and under
+@media (max-width: 490px) {
+    .logo {
+        visibility: hidden;
+        position: absolute;
+        left: -400px;
+    }
+    .contactNav {
+        width: 76%;
+        position: relative;
+        right: -25%;
+        a {
+            font-size: 0.4rem;
+        }
+    }
+    .showLogo {
+        width: 60%;
+        visibility: visible;
+        left: 75px;
+        z-index: 13;
+        transition: all 0.4s ease;
+        a {
+            font-size: 1.1rem;
+        }
+    }
+}
