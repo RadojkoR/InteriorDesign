@@ -27,4 +27,84 @@
             border-radius: 4px;
         }
     }
+
+    // **************************************** HOME PAGE
+    // WELCOME SECTION
+    .hFiveEl {
+        text-align: center;
+    }
+    .welcomeTxtContainer {
+        h2 {
+            text-align: center;
+        }
+        
+    }
+    .welcomeContainer {
+        flex-direction: column-reverse;
+
+        .welcomeImgContainer {
+            width: 100%;
+
+            .welcomeImgOne {
+                width: 90%;
+                margin: 0;
+            }
+
+            .welcomeImgTwo {
+                width: 55%;
+                right: 0%;
+            }
+
+            .welcomeImgPara {
+                width: 55%;
+                left: 0;
+            }
+        }
+    }
+
+    // RECENT PROJECT SECTION
+    .recentProjectContainer {
+
+        .recentProjectBoxContainer {
+            .recentProjectBox {
+                width: 80%;
+            }
+        }
+    }
+
+    // **************************************** OUR PROJECTS PAGE
+    .mainHeaderProjects {
+    .textEl {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+// OUR PROJECTS SECTION
+.projectsContainer {
+        .projectsImgBox {
+            width: 80%;
+        }
+    }
+
+    // **************************************** OCONTACT US PAGE
+    .contactUsContainer {
+        width: 100%;
+        h2 {
+            text-align: center;
+            font-size: 1.6rem;
+        }
+        .contactForm {
+            form {
+                .row {
+                    width: 100%;
+                }
+                button {
+                    width: 30%;
+                }
+            }
+        }
+    }
+
 }
