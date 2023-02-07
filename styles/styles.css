@@ -1365,7 +1365,7 @@ p {
     background-color: transparent;
   }
   .headerContainer .leftEl .leftTxtEl {
-    top: 30%;
+    top: 37%;
   }
   .welcomeContainer .welcomeImgContainer .welcomeImgOne {
     width: 90%;
@@ -1478,7 +1478,7 @@ p {
     width: 40%;
   }
   .mainFooter .footerTop .footerTopContainer .footerAbout p i,
-.mainFooter .footerTop .footerTopContainer .footerAbout p a {
+  .mainFooter .footerTop .footerTopContainer .footerAbout p a {
     font-size: 1rem;
   }
 }
@@ -1548,7 +1548,7 @@ p {
         -ms-flex-align: start;
             align-items: flex-start;
     top: 0;
-    left: -400px;
+    left: -550px;
     width: 70%;
     height: 100vh;
     z-index: 10;
@@ -1575,6 +1575,152 @@ p {
     visibility: visible;
     position: relative;
     left: 31%;
+  }
+  .welcomeContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .welcomeContainer .welcomeImgContainer {
+    width: 100%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgOne {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
+    width: 40%;
+    right: 0%;
+    bottom: 0;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara {
+    width: 50%;
+    left: 15%;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .welcomeContainer .welcomeTxtContainer {
+    width: 100%;
+  }
+  .services h2 {
+    margin-bottom: 80px;
+  }
+  .services .servicesContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    bottom: 0;
+    padding-bottom: 80px;
+  }
+  .services .servicesContainer .servicesBox {
+    width: 70%;
+    margin: 20px auto;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .ourFeatures {
+    padding: 0;
+  }
+  .ourFeatures .ourFeaturesContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ourFeatures .ourFeaturesContainer .ourFeaturesTxtContainer {
+    width: 100%;
+  }
+  .ourFeatures .ourFeaturesContainer .ourfeaturesImgContainer {
+    width: 100%;
+    height: 400px;
+  }
+  .recentProjectContainer {
+    padding-top: 80px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox {
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox {
+    width: 100%;
+    height: 600px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox p {
+    left: -15%;
+    top: 10%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior {
+    width: 100%;
+    height: 600px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior p {
+    left: -15%;
+    top: 10%;
+  }
+  .mainFooter .footerTop .footerTopContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainFooter .footerTop .footerTopContainer .footerBox {
+    width: 98%;
+    margin: 30px auto;
+  }
+  .mainFooter .footerTop .footerTopContainer .footerAbout {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainFooter .footerTop .footerTopContainer .footerInfo {
+    width: 50%;
+    margin: 0 auto 50px;
+    padding: 50px 0;
+  }
+  .projectsContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projectsContainer .projectsImgBox {
+    width: 60%;
+    height: auto;
+    margin: 30px auto;
+  }
+  .projectsContainer .projectsImgBox .imgBox {
+    height: 600px;
+  }
+  .projectsContainer .projectsImgBox .imgBox p {
+    left: -15%;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior {
+    height: 600px;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior p {
+    left: -15%;
+  }
+  .contactUsContainer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .contactUsContainer .contactForm form .row {
+    width: 100%;
+  }
+  .contactUsContainer .contactForm form button {
+    width: 30%;
   }
 }
 @media (max-width: 610px) {
@@ -1607,7 +1753,7 @@ p {
   .logo {
     visibility: hidden;
     position: absolute;
-    left: -400px;
+    left: -550px;
   }
   .contactNav {
     width: 76%;
