@@ -92,7 +92,7 @@
         left: 31%;
     }
 
-    // ************************ HOME PAGE
+    // **************************************** HOME PAGE
     // WELCOME SECTION
 
     .welcomeContainer {
@@ -204,7 +204,8 @@
             .footerTopContainer {
                 flex-direction: column;
                 .footerBox {
-                    width: 100%;
+                    width: 98%;
+                    margin: 30px auto;
                 }
                 .footerAbout {
                     justify-content: center;
@@ -218,5 +219,46 @@
             }
         }
     }
+
+    // **************************************** OUR PROJECTS PAGE
+    .projectsContainer {
+        flex-direction: column;
+        .projectsImgBox {
+            width: 60%;
+            height: auto;
+            margin: 30px auto;
+            .imgBox {
+                height: 600px;
+                p {
+                    left: -15%;
+            }
+            }
+            .imgBoxInterior {
+                height: 600px;
+                p {
+                    left: -15%;
+                }
+            }
+        }
+    }
+
+    // **************************************** OCONTACT US PAGE
+    .contactUsContainer {
+        h2 {
+            text-align: center;
+            font-size: 1.8rem;
+        }
+        .contactForm {
+            form {
+                .row {
+                    width: 100%;
+                }
+                button {
+                    width: 30%;
+                }
+            }
+        }
+    }
+
 
 }

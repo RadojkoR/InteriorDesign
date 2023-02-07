@@ -1365,7 +1365,7 @@ p {
     background-color: transparent;
   }
   .headerContainer .leftEl .leftTxtEl {
-    top: 30%;
+    top: 37%;
   }
   .welcomeContainer .welcomeImgContainer .welcomeImgOne {
     width: 90%;
@@ -1673,7 +1673,8 @@ p {
             flex-direction: column;
   }
   .mainFooter .footerTop .footerTopContainer .footerBox {
-    width: 100%;
+    width: 98%;
+    margin: 30px auto;
   }
   .mainFooter .footerTop .footerTopContainer .footerAbout {
     -webkit-box-pack: center;
@@ -1687,6 +1688,39 @@ p {
     width: 50%;
     margin: 0 auto 50px;
     padding: 50px 0;
+  }
+  .projectsContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projectsContainer .projectsImgBox {
+    width: 60%;
+    height: auto;
+    margin: 30px auto;
+  }
+  .projectsContainer .projectsImgBox .imgBox {
+    height: 600px;
+  }
+  .projectsContainer .projectsImgBox .imgBox p {
+    left: -15%;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior {
+    height: 600px;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior p {
+    left: -15%;
+  }
+  .contactUsContainer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .contactUsContainer .contactForm form .row {
+    width: 100%;
+  }
+  .contactUsContainer .contactForm form button {
+    width: 30%;
   }
 }
 @media (max-width: 610px) {
