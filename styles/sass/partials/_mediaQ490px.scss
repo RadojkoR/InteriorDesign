@@ -26,4 +26,164 @@
             font-size: 1.1rem;
         }
     }
+
+    // **************************************** HOME PAGE
+    // WELCOME SECTION
+    .welcome {
+        padding: 50px 0;
+    }
+    .hFiveEl {
+        font-size: 0.75rem;
+    }
+
+    .welcomeContainer {
+
+        .welcomeTxtContainer {
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: 0.75rem;
+            }
+
+            h4 {
+                font-size: 0.9rem;
+            }
+            
+        }
+    } 
+    .welcomeContainer {
+        flex-direction: column-reverse;
+
+        .welcomeImgContainer {
+
+            .welcomeImgOne {
+                width: 100%;
+                height: 550px;
+                margin: 0;
+            }
+
+            .welcomeImgTwo {
+                width: 55%;
+                height: 50%;
+                left: 0%;
+                top: 0;
+            }
+
+            .welcomeImgPara {
+                width: 80%;
+                left: 0;
+            }
+        }
+    }
+
+    // OUR SERVICES
+    .services {
+        h2 {
+            font-size: 1.7rem;
+        }
+        .servicesContainer {
+            .servicesBox {
+                width: 90%;
+            }
+        }
+    }
+
+    // OUR FEATURES
+    .ourFeatures {
+        padding: 0;
+
+        .ourFeaturesContainer {
+            flex-direction: column;
+
+            .ourFeaturesTxtContainer {
+                width: 100%;
+                .feauturesBox {
+                    width: 100%;
+                }
+            }
+
+            .ourfeaturesImgContainer {
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+
+    // RECENT PROJECT SECTION
+    .recentProjectContainer {
+        h2 {
+            font-size: 1.63rem;
+        }
+        .recentProjectBoxContainer {
+            .recentProjectBox {
+                width: 95%;
+                .imgBox {
+                    height: 500px;
+
+                    p {
+                        left: -25%;
+                        top: 10%;
+                    }
+                }
+                .imgBoxInterior {
+                    height: 500px;
+
+                    p {
+                        left: -25%;
+                        top: 10%;
+                    }
+                }
+            }
+        }
+    }
+
+    // FOOTER SECTION
+    .mainFooter {
+        .footerTop {
+            .footerTopContainer {
+                
+                .footerInfo {
+                    width: 75%;
+                }
+            }
+        }
+
+        .footerBottom {
+        background-color: variables.$primaryColor;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        .socialFooter {
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            margin: 0;
+            li {
+                width: 45px;
+                height: 45px;
+                border: 3px solid variables.$secondaryBg;
+                margin: 0 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    padding: 8px;
+                    i {
+                        color: variables.$secondaryBg;
+                    }
+                }
+            }
+        }
+        p {
+            text-align: center;
+            color: variables.$secondaryBg;
+            font-size: 0.57rem;
+            padding: 30px 0 20px;
+            margin: 0;
+        }
+    }
+    }
+
 }

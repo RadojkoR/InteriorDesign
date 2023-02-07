@@ -1825,4 +1825,132 @@ p {
   .showLogo a {
     font-size: 1.1rem;
   }
+  .welcome {
+    padding: 50px 0;
+  }
+  .hFiveEl {
+    font-size: 0.75rem;
+  }
+  .welcomeContainer .welcomeTxtContainer h2 {
+    font-size: 1.3rem;
+  }
+  .welcomeContainer .welcomeTxtContainer p {
+    font-size: 0.75rem;
+  }
+  .welcomeContainer .welcomeTxtContainer h4 {
+    font-size: 0.9rem;
+  }
+  .welcomeContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgOne {
+    width: 100%;
+    height: 550px;
+    margin: 0;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
+    width: 55%;
+    height: 50%;
+    left: 0%;
+    top: 0;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara {
+    width: 80%;
+    left: 0;
+  }
+  .services h2 {
+    font-size: 1.7rem;
+  }
+  .services .servicesContainer .servicesBox {
+    width: 90%;
+  }
+  .ourFeatures {
+    padding: 0;
+  }
+  .ourFeatures .ourFeaturesContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ourFeatures .ourFeaturesContainer .ourFeaturesTxtContainer {
+    width: 100%;
+  }
+  .ourFeatures .ourFeaturesContainer .ourFeaturesTxtContainer .feauturesBox {
+    width: 100%;
+  }
+  .ourFeatures .ourFeaturesContainer .ourfeaturesImgContainer {
+    width: 100%;
+    height: 400px;
+  }
+  .recentProjectContainer h2 {
+    font-size: 1.63rem;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox {
+    width: 95%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox {
+    height: 500px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox p {
+    left: -25%;
+    top: 10%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior {
+    height: 500px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior p {
+    left: -25%;
+    top: 10%;
+  }
+  .mainFooter .footerTop .footerTopContainer .footerInfo {
+    width: 75%;
+  }
+  .mainFooter .footerBottom {
+    background-color: #f47f4a;
+    width: 100%;
+    position: relative;
+    margin: 0;
+  }
+  .mainFooter .footerBottom .socialFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+  }
+  .mainFooter .footerBottom .socialFooter li {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #FFF;
+    margin: 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainFooter .footerBottom .socialFooter li a {
+    padding: 8px;
+  }
+  .mainFooter .footerBottom .socialFooter li a i {
+    color: #FFF;
+  }
+  .mainFooter .footerBottom p {
+    text-align: center;
+    color: #FFF;
+    font-size: 0.57rem;
+    padding: 30px 0 20px;
+    margin: 0;
+  }
 }
