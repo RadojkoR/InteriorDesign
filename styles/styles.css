@@ -1825,6 +1825,9 @@ p {
   .showLogo a {
     font-size: 1.1rem;
   }
+  .leftEl .leftTxtEl p {
+    font-size: 0.6rem;
+  }
   .welcome {
     padding: 50px 0;
   }
