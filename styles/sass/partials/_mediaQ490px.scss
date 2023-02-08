@@ -7,21 +7,24 @@
         position: absolute;
         left: -550px;
     }
+
     .contactNav {
         width: 76%;
         position: relative;
         right: -25%;
+
         a {
             font-size: 0.4rem;
         }
     }
-    
+
     .showLogo {
         width: 60%;
         visibility: visible;
         left: 75px;
         z-index: 13;
         transition: all 0.4s ease;
+
         a {
             font-size: 1.1rem;
         }
@@ -32,8 +35,9 @@
     .welcome {
         padding: 50px 0;
     }
+
     .hFiveEl {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
 
     .welcomeContainer {
@@ -50,9 +54,10 @@
             h4 {
                 font-size: 0.9rem;
             }
-            
+
         }
-    } 
+    }
+
     .welcomeContainer {
         flex-direction: column-reverse;
 
@@ -83,6 +88,7 @@
         h2 {
             font-size: 1.7rem;
         }
+
         .servicesContainer {
             .servicesBox {
                 width: 90%;
@@ -99,6 +105,7 @@
 
             .ourFeaturesTxtContainer {
                 width: 100%;
+
                 .feauturesBox {
                     width: 100%;
                 }
@@ -116,9 +123,11 @@
         h2 {
             font-size: 1.63rem;
         }
+
         .recentProjectBoxContainer {
             .recentProjectBox {
                 width: 95%;
+
                 .imgBox {
                     height: 500px;
 
@@ -127,6 +136,7 @@
                         top: 10%;
                     }
                 }
+
                 .imgBoxInterior {
                     height: 500px;
 
@@ -143,7 +153,7 @@
     .mainFooter {
         .footerTop {
             .footerTopContainer {
-                
+
                 .footerInfo {
                     width: 75%;
                 }
@@ -151,39 +161,109 @@
         }
 
         .footerBottom {
-        background-color: variables.$primaryColor;
-        width: 100%;
-        position: relative;
-        margin: 0;
-        .socialFooter {
-            display: flex;
-            justify-content: center;
-            padding-top: 50px;
+            background-color: variables.$primaryColor;
+            width: 100%;
+            position: relative;
             margin: 0;
-            li {
-                width: 45px;
-                height: 45px;
-                border: 3px solid variables.$secondaryBg;
-                margin: 0 15px;
+
+            .socialFooter {
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                a {
-                    padding: 8px;
-                    i {
-                        color: variables.$secondaryBg;
+                padding-top: 50px;
+                margin: 0;
+
+                li {
+                    width: 45px;
+                    height: 45px;
+                    border: 3px solid variables.$secondaryBg;
+                    margin: 0 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    a {
+                        padding: 8px;
+
+                        i {
+                            color: variables.$secondaryBg;
+                        }
                     }
                 }
             }
-        }
-        p {
-            text-align: center;
-            color: variables.$secondaryBg;
-            font-size: 0.57rem;
-            padding: 30px 0 20px;
-            margin: 0;
+
+            p {
+                text-align: center;
+                color: variables.$secondaryBg;
+                font-size: 0.57rem;
+                padding: 30px 0 20px;
+                margin: 0;
+            }
         }
     }
+
+     // **************************************** OUR PROJECTS PAGE
+
+     .mainHeaderProjects {
+        .textEl {
+            h1 {
+                font-size: 1.9rem;
+            }
+        }
+    }
+    .projectsHeaderContainer { 
+        .leftEl {
+            width: 30px;
+        }
+    }
+
+    // OUR PROJECTS SECTION
+    .projectsContainer {
+        .projectsImgBox {
+            width: 95%;
+            .imgBox {
+                    height: 500px;
+
+                    p {
+                        left: -25%;
+                        top: 15%;
+                    }
+                }
+
+                .imgBoxInterior {
+                    height: 500px;
+
+                    p {
+                        left: -25%;
+                        top: 10%;
+                    }
+                }
+        }
+    }
+
+    // **************************************** OCONTACT US PAGE
+    .contactUsContainer {
+        h2 {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .contactForm {
+            form {
+                .row {
+                    width: 100%;
+                    .textInput {
+                        font-size: 0.7rem;
+                    }
+                    .formMessage  {
+                        font-size: 0.7rem;
+                    }
+                }
+
+                button {
+                    width: 50%;
+                }
+            }
+        }
     }
 
 }

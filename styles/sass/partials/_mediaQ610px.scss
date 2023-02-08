@@ -8,18 +8,22 @@
         position: relative;
         left: 15%;
     }
+
     .contactNav {
-    padding: 0;
-    a {
-        font-size: 0.48rem;
-    }
-    .fa-phone {
+        padding: 0;
+
+        a {
+            font-size: 0.48rem;
+        }
+
+        .fa-phone {
             font-size: 0.4rem;
             background-color: variables.$primaryColor;
             padding: 3px;
             border-radius: 4px;
 
         }
+
         .fa-envelope {
             font-size: 0.7rem;
             color: variables.$primaryColor;
@@ -33,12 +37,14 @@
     .hFiveEl {
         text-align: center;
     }
+
     .welcomeTxtContainer {
         h2 {
             text-align: center;
         }
-        
+
     }
+
     .welcomeContainer {
         flex-direction: column-reverse;
 
@@ -74,15 +80,15 @@
 
     // **************************************** OUR PROJECTS PAGE
     .mainHeaderProjects {
-    .textEl {
-        h1 {
-            font-size: 2.5rem;
+        .textEl {
+            h1 {
+                font-size: 2.5rem;
+            }
         }
     }
-}
 
-// OUR PROJECTS SECTION
-.projectsContainer {
+    // OUR PROJECTS SECTION
+    .projectsContainer {
         .projectsImgBox {
             width: 80%;
         }
@@ -95,11 +101,13 @@
             text-align: center;
             font-size: 1.6rem;
         }
+
         .contactForm {
             form {
                 .row {
                     width: 100%;
                 }
+
                 button {
                     width: 30%;
                 }

@@ -1829,7 +1829,7 @@ p {
     padding: 50px 0;
   }
   .hFiveEl {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
   .welcomeContainer .welcomeTxtContainer h2 {
     font-size: 1.3rem;
@@ -1952,5 +1952,44 @@ p {
     font-size: 0.57rem;
     padding: 30px 0 20px;
     margin: 0;
+  }
+  .mainHeaderProjects .textEl h1 {
+    font-size: 1.9rem;
+  }
+  .projectsHeaderContainer .leftEl {
+    width: 30px;
+  }
+  .projectsContainer .projectsImgBox {
+    width: 95%;
+  }
+  .projectsContainer .projectsImgBox .imgBox {
+    height: 500px;
+  }
+  .projectsContainer .projectsImgBox .imgBox p {
+    left: -25%;
+    top: 15%;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior {
+    height: 500px;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior p {
+    left: -25%;
+    top: 10%;
+  }
+  .contactUsContainer h2 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .contactUsContainer .contactForm form .row {
+    width: 100%;
+  }
+  .contactUsContainer .contactForm form .row .textInput {
+    font-size: 0.7rem;
+  }
+  .contactUsContainer .contactForm form .row .formMessage {
+    font-size: 0.7rem;
+  }
+  .contactUsContainer .contactForm form button {
+    width: 50%;
   }
 }
