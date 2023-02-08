@@ -205,7 +205,9 @@
                 flex-direction: column;
                 .footerBox {
                     width: 98%;
-                    margin: 30px auto;
+                    margin: 20px auto;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid variables.$borderBottomColor;
                 }
                 .footerAbout {
                     justify-content: center;
@@ -213,7 +215,7 @@
                 }
                 .footerInfo {
                     width: 50%;
-                    margin: 0 auto 50px;
+                    margin: 30px auto 50px;
                     padding: 50px 0;
                 }
             }

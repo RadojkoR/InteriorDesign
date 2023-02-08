@@ -1674,7 +1674,9 @@ p {
   }
   .mainFooter .footerTop .footerTopContainer .footerBox {
     width: 98%;
-    margin: 30px auto;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d2d3d6;
   }
   .mainFooter .footerTop .footerTopContainer .footerAbout {
     -webkit-box-pack: center;
@@ -1686,7 +1688,7 @@ p {
   }
   .mainFooter .footerTop .footerTopContainer .footerInfo {
     width: 50%;
-    margin: 0 auto 50px;
+    margin: 30px auto 50px;
     padding: 50px 0;
   }
   .projectsContainer {
@@ -1748,6 +1750,55 @@ p {
     padding: 3px;
     border-radius: 4px;
   }
+  .hFiveEl {
+    text-align: center;
+  }
+  .welcomeTxtContainer h2 {
+    text-align: center;
+  }
+  .welcomeContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .welcomeContainer .welcomeImgContainer {
+    width: 100%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgOne {
+    width: 90%;
+    margin: 0;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
+    width: 55%;
+    right: 0%;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara {
+    width: 55%;
+    left: 0;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox {
+    width: 80%;
+  }
+  .mainHeaderProjects .textEl h1 {
+    font-size: 2.5rem;
+  }
+  .projectsContainer .projectsImgBox {
+    width: 80%;
+  }
+  .contactUsContainer {
+    width: 100%;
+  }
+  .contactUsContainer h2 {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .contactUsContainer .contactForm form .row {
+    width: 100%;
+  }
+  .contactUsContainer .contactForm form button {
+    width: 30%;
+  }
 }
 @media (max-width: 490px) {
   .logo {
@@ -1773,5 +1824,172 @@ p {
   }
   .showLogo a {
     font-size: 1.1rem;
+  }
+  .welcome {
+    padding: 50px 0;
+  }
+  .hFiveEl {
+    font-size: 0.7rem;
+  }
+  .welcomeContainer .welcomeTxtContainer h2 {
+    font-size: 1.3rem;
+  }
+  .welcomeContainer .welcomeTxtContainer p {
+    font-size: 0.75rem;
+  }
+  .welcomeContainer .welcomeTxtContainer h4 {
+    font-size: 0.9rem;
+  }
+  .welcomeContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgOne {
+    width: 100%;
+    height: 550px;
+    margin: 0;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgTwo {
+    width: 55%;
+    height: 50%;
+    left: 0%;
+    top: 0;
+  }
+  .welcomeContainer .welcomeImgContainer .welcomeImgPara {
+    width: 80%;
+    left: 0;
+  }
+  .services h2 {
+    font-size: 1.7rem;
+  }
+  .services .servicesContainer .servicesBox {
+    width: 90%;
+  }
+  .ourFeatures {
+    padding: 0;
+  }
+  .ourFeatures .ourFeaturesContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ourFeatures .ourFeaturesContainer .ourFeaturesTxtContainer {
+    width: 100%;
+  }
+  .ourFeatures .ourFeaturesContainer .ourFeaturesTxtContainer .feauturesBox {
+    width: 100%;
+  }
+  .ourFeatures .ourFeaturesContainer .ourfeaturesImgContainer {
+    width: 100%;
+    height: 400px;
+  }
+  .recentProjectContainer h2 {
+    font-size: 1.63rem;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox {
+    width: 95%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox {
+    height: 500px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBox p {
+    left: -25%;
+    top: 10%;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior {
+    height: 500px;
+  }
+  .recentProjectContainer .recentProjectBoxContainer .recentProjectBox .imgBoxInterior p {
+    left: -25%;
+    top: 10%;
+  }
+  .mainFooter .footerTop .footerTopContainer .footerInfo {
+    width: 75%;
+  }
+  .mainFooter .footerBottom {
+    background-color: #f47f4a;
+    width: 100%;
+    position: relative;
+    margin: 0;
+  }
+  .mainFooter .footerBottom .socialFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+  }
+  .mainFooter .footerBottom .socialFooter li {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #FFF;
+    margin: 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainFooter .footerBottom .socialFooter li a {
+    padding: 8px;
+  }
+  .mainFooter .footerBottom .socialFooter li a i {
+    color: #FFF;
+  }
+  .mainFooter .footerBottom p {
+    text-align: center;
+    color: #FFF;
+    font-size: 0.57rem;
+    padding: 30px 0 20px;
+    margin: 0;
+  }
+  .mainHeaderProjects .textEl h1 {
+    font-size: 1.9rem;
+  }
+  .projectsHeaderContainer .leftEl {
+    width: 30px;
+  }
+  .projectsContainer .projectsImgBox {
+    width: 95%;
+  }
+  .projectsContainer .projectsImgBox .imgBox {
+    height: 500px;
+  }
+  .projectsContainer .projectsImgBox .imgBox p {
+    left: -25%;
+    top: 15%;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior {
+    height: 500px;
+  }
+  .projectsContainer .projectsImgBox .imgBoxInterior p {
+    left: -25%;
+    top: 10%;
+  }
+  .contactUsContainer h2 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .contactUsContainer .contactForm form .row {
+    width: 100%;
+  }
+  .contactUsContainer .contactForm form .row .textInput {
+    font-size: 0.7rem;
+  }
+  .contactUsContainer .contactForm form .row .formMessage {
+    font-size: 0.7rem;
+  }
+  .contactUsContainer .contactForm form button {
+    width: 50%;
   }
 }
